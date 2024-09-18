@@ -170,7 +170,7 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'dim',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
