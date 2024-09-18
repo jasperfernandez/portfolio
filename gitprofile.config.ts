@@ -33,20 +33,20 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'E-VotePro',
           description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://evotepro.online/evotepro-assets/img/e-votepro-logo.png',
+          link: 'https://evotepro.online',
         },
         {
-          title: 'Project Name',
+          title: 'JELMAXX Hardware Inventory System',
           description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://scontent.fmnl25-3.fna.fbcdn.net/v/t39.30808-6/393261232_724977799671193_8648250162151061178_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeGG3AkMCd72HAb_Ip3laoYTlaXqpdoveFOVpeql2i94U7eJkGPLtofVp6HRxDptnx8_7cmrtLItcvztCnXDordc&_nc_ohc=t1Q64kmcpzUQ7kNvgEO9zXO&_nc_ht=scontent.fmnl25-3.fna&_nc_gid=AaC0c4USyanG1SqqVC97Ohz&oh=00_AYARdcnCTc4ZXMHz0ndMhJc309yV3fVY6f_bsGRzrrDsJw&oe=66F09F9F',
+          link: '',
         },
       ],
     },
