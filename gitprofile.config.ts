@@ -35,7 +35,7 @@ const CONFIG = {
         {
           title: 'E-VotePro',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            '',
           imageUrl:
             'https://evotepro.online/evotepro-assets/img/e-votepro-logo.png',
           link: 'https://evotepro.online',
@@ -43,9 +43,9 @@ const CONFIG = {
         {
           title: 'Hardware Inventory System',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            '',
           imageUrl:
-            'https://th.bing.com/th/id/OIP.0l2zeiuFn-VqdPXg9GNd_AHaHa?w=1000&h=1000&rs=1&pid=ImgDetMain',
+            'https://th.bing.com/th/id/OIP.QJwDhWS5fiY0eKVNKKavNgAAAA?rs=1&pid=ImgDetMain',
           link: '',
         },
       ],
