@@ -41,20 +41,20 @@ const CONFIG = {
           link: 'https://evotepro.online',
         },
         {
-          title: 'JELMAXX Hardware Inventory System',
+          title: 'Hardware Inventory System',
           description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
           imageUrl:
-            'https://scontent.fmnl25-3.fna.fbcdn.net/v/t39.30808-6/393261232_724977799671193_8648250162151061178_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeGG3AkMCd72HAb_Ip3laoYTlaXqpdoveFOVpeql2i94U7eJkGPLtofVp6HRxDptnx8_7cmrtLItcvztCnXDordc&_nc_ohc=t1Q64kmcpzUQ7kNvgEO9zXO&_nc_ht=scontent.fmnl25-3.fna&_nc_gid=AaC0c4USyanG1SqqVC97Ohz&oh=00_AYARdcnCTc4ZXMHz0ndMhJc309yV3fVY6f_bsGRzrrDsJw&oe=66F09F9F',
+            'https://th.bing.com/th/id/OIP.0l2zeiuFn-VqdPXg9GNd_AHaHa?w=1000&h=1000&rs=1&pid=ImgDetMain',
           link: '',
         },
       ],
     },
   },
   seo: {
-    title: 'Portfolio of Jasper Fernandez',
+    title: 'Jasper Fernandez',
     description: '',
-    imageURL: '',
+    imageURL: 'https://avatars.githubusercontent.com/u/138739692?v=4',
   },
   social: {
     linkedin: 'fernandezjasper',
