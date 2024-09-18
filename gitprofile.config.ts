@@ -20,7 +20,7 @@ const CONFIG = {
         limit: 4, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
-          projects: ['jasperfernandez/health_advisor_rule_based_expert_system'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: ['jasperfernandez/health_advisor_rule_based_expert_system', 'jasperfernandez/eportfolio', 'jasperfernandez/portfolio', 'jasperfernandez/jasperfernandez', , 'jasperfernandez/sms-java-cli'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
       manual: {
