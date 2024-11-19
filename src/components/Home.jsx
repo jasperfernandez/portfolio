@@ -1,4 +1,5 @@
 import { about } from '../portfolio';
+import Button from './Button';
 
 const Home = () => {
   return (
@@ -9,18 +10,16 @@ const Home = () => {
 
       <h2 className='text-3xl font-bold'>A {about.role}</h2>
 
-      <p className='max-w-2xl'>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo ratione
-        iste quo sapiente, beatae autem praesentium ex magnam illo eaque
-        dignissimos magni nobis quaerat vero enim id est maxime cupiditate.
-        Magnam ab quaerat in ad qui libero, deleniti adipisci assumenda
-        perferendis officiis.
+      <p className='max-w-2xl text-xl'>
+        I&apos;m a 21-year-old Computer Science graduate from Tandag City. I
+        specialize in web development. I focus on building efficient backend
+        solutions and user-friendly interfaces to create impactful digital
+        experiences.
       </p>
 
-      <div>
-        <button>Resume</button>
-        <a>Github</a>
-        <a>LinkedIn</a>
+      <div className='space-x-2'>
+        <Button>Resume</Button>
+        <Button variant='secondary'>Hire me</Button>
       </div>
     </div>
   );
