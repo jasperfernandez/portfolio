@@ -185,40 +185,40 @@ const projects = [
     sourceCode: '',
     livePreview: '',
   },
-  {
-    name: 'Accident Reporting System',
-    images: [
-      'https://via.placeholder.com/150',
-      'https://via.placeholder.com/150',
-      'https://via.placeholder.com/150',
-    ],
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stacks: [
-      {
-        name: 'Laravel',
-        icon: <Laravel />,
-      },
-      {
-        name: 'React',
-        icon: <React />,
-      },
-      {
-        name: 'TypeScript',
-        icon: <TypeScript />,
-      },
-      {
-        name: 'Tailwind CSS',
-        icon: <TailwindCss />,
-      },
-      {
-        name: 'Flutter',
-        icon: <TailwindCss />,
-      },
-    ],
-    sourceCode: '',
-    livePreview: '',
-  },
+  // {
+  //   name: 'Accident Reporting System',
+  //   images: [
+  //     'https://via.placeholder.com/150',
+  //     'https://via.placeholder.com/150',
+  //     'https://via.placeholder.com/150',
+  //   ],
+  //   description:
+  //     'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+  //   stacks: [
+  //     {
+  //       name: 'Laravel',
+  //       icon: <Laravel />,
+  //     },
+  //     {
+  //       name: 'React',
+  //       icon: <React />,
+  //     },
+  //     {
+  //       name: 'TypeScript',
+  //       icon: <TypeScript />,
+  //     },
+  //     {
+  //       name: 'Tailwind CSS',
+  //       icon: <TailwindCss />,
+  //     },
+  //     {
+  //       name: 'Flutter',
+  //       icon: <TailwindCss />,
+  //     },
+  //   ],
+  //   sourceCode: '',
+  //   livePreview: '',
+  // },
 ];
 
 const skills = [
