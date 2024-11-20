@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.border-expand {
+  position: relative;
+  display: inline-block;
+}
+
+.border-expand::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  display: block;
+  margin-top: 5px;
+  left: 0;
+  background: #0074d9; /* Change this to your desired color */
+  transition: width 0.3s ease, right 0.3s ease;
+}
+
+.border-expand:hover::after {
+  width: 100%;
+  left: 0;
+}

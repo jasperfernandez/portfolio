@@ -6,10 +6,10 @@ const Button = ({
   variant = 'primary',
   ...props
 }) => {
-  const baseClasses = 'px-4 py-2 font-medium rounded-sm ';
+  const baseClasses = 'px-4 py-2 font-medium rounded-sm';
   const variantClasses =
     variant === 'secondary'
-      ? 'bg-gray-100 text-foreground'
+      ? 'bg-background text-foreground'
       : 'bg-primary text-white';
 
   return (

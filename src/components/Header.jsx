@@ -1,4 +1,4 @@
-import { header } from '../portfolio';
+// import { header } from '../portfolio';
 import NavLink from './NavLink';
 
 const Header = () => {
@@ -8,7 +8,16 @@ const Header = () => {
       className='flex items-center justify-between w-full h-32 max-w-6xl px-8 mx-auto'
     >
       <a href='#home'>
-        <h1 className='text-2xl font-bold text-primary'>{header.title}</h1>
+        <h1 className='text-xl font-bold'>
+          <span className='text-primary'>{'<'}</span>JasperFernandez{' '}
+          <span className='text-primary'>{'/>'}</span>
+        </h1>
+
+        {/* <h1 className='text-xl font-semibold'>
+          J<span className='text-primary'>F</span>
+        </h1> */}
+
+        {/* <h1 className='text-xl font-semibold'>{header.title}</h1> */}
       </a>
 
       <div className='flex gap-6'>

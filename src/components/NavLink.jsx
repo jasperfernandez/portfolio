@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types';
 
-const NavLink = ({ children, href, className = 'font-medium' }) => {
+const NavLink = ({ children, href, className = '' }) => {
   return (
-    <a href={href} className={className}>
+    <a href={href} className={' font-medium border-expand' + className}>
       {children}
     </a>
   );
