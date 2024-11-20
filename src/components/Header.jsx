@@ -24,6 +24,7 @@ const Header = () => {
         <NavLink href='#projects'>Projects</NavLink>
         <NavLink href='#skills'>Skills</NavLink>
         <NavLink href='#education'>Education</NavLink>
+        <NavLink href='#contact'>Contact</NavLink>
       </div>
     </div>
   );

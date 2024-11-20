@@ -11,7 +11,7 @@ import project14 from './assets/images/project1/4.png';
 import project15 from './assets/images/project1/5.png';
 
 const header = {
-  homepage: 'https://127.0.0.1:5174',
+  homepage: 'http://jasperfernandez.github.io/portfolio-v2/',
   title: 'JF',
 };
 
@@ -23,8 +23,8 @@ const about = {
   resume:
     'https://drive.google.com/file/d/1nPJL6-RGkdYEVJWnBAYWxHChkJpf7h9v/view?usp=sharing',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/fernandezjasper/',
+    github: 'https://github.com/jasperfernandez',
   },
 };
 
@@ -48,8 +48,8 @@ const projects = [
         icon: <Bootstrap />,
       },
     ],
-    sourceCode: 'ssssssssss',
-    livePreview: 'ssss',
+    sourceCode: '',
+    livePreview: '',
   },
   {
     name: 'Inventory Management System',
