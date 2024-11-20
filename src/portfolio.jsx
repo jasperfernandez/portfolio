@@ -17,7 +17,7 @@ const header = {
 
 const about = {
   name: 'Jasper Fernandez',
-  role: 'Full Stacks Web Developer',
+  role: 'Full Stack Web Developer',
   description:
     "I'm a 21-year-old Computer Science Graduate from Tandag City. I specialize in Web Development. I focus on building Efficient Backend Solutions and User-Friendly Interfaces to create Impactful Digital Experiences.",
   resume:
