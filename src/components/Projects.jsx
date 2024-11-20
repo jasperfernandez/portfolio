@@ -12,7 +12,7 @@ const Projects = ({ ...props }) => {
         <span className='text-primary'>{'/>'}</span>
       </h1>
 
-      <div className='grid grid-cols-2 gap-6'>
+      <div className='grid grid-cols-1 gap-6 lg:grid-cols-2'>
         {projects.map((project) => (
           <ProjectCard key={project.name} project={project} />
         ))}

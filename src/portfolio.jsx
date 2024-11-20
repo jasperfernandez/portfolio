@@ -33,7 +33,7 @@ const projects = [
     name: 'Election Management System',
     images: [project11, project12, project13, project14, project15],
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'E-VotePro is an election management system designed to streamline the electoral process by providing a secure, efficient, and user-friendly platform for managing elections. It enables voters to cast their ballots online, reducing manual efforts and ensuring accurate results through automated tallying and reporting. This system includes features like voter authentication, real-time vote tracking, and result generation, making it ideal for schools, organizations, or small-scale elections. E-VotePro is my undergraduate thesis project.',
     stacks: [
       {
         name: 'Laravel',

@@ -1,13 +1,37 @@
 import PropTypes from 'prop-types';
 import StackChip from './StackChip';
 import { Images, ExternalLink, Github } from 'lucide-react';
+import { useState } from 'react';
 
 const ProjectCard = ({ project, className = '', ...props }) => {
+  const [isExpanded, setIsExpanded] = useState(false);
+  const maxLength = 130; // Set the maximum length for the description
+
+  const toggleExpand = () => {
+    setIsExpanded(!isExpanded);
+  };
+
+  const renderDescription = () => {
+    if (project.description.length <= maxLength) {
+      return project.description;
+    }
+    return (
+      <span onClick={toggleExpand}>
+        {isExpanded
+          ? project.description
+          : `${project.description.substring(0, maxLength)}... `}
+        {!isExpanded && (
+          <span className='text-gray-500 cursor-pointer'>See more</span>
+        )}
+      </span>
+    );
+  };
+
   return (
     <div
       {...props}
       className={
-        'p-6 h-96 drop-shadow gap-6 rounded-md bg-gray-200 w-[30rem] flex flex-col ' +
+        'p-6 drop-shadow gap-6 rounded-md bg-gray-200 w-[30rem] flex flex-col h-fit ' +
         className
       }
     >
@@ -22,7 +46,8 @@ const ProjectCard = ({ project, className = '', ...props }) => {
       <div className='flex flex-col justify-center space-y-4'>
         <div className='space-y-1'>
           <h1 className='text-xl font-bold'>{project.name}</h1>
-          <p className='text-gray-600'>{project.description}</p>
+
+          <p className='text-gray-600'>{renderDescription()}</p>
         </div>
 
         <div className='flex flex-wrap gap-2'>
