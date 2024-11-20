@@ -1,9 +1,12 @@
 import ProjectCard from './ProjectCard';
 import { projects } from '../portfolio';
 
-const Projects = () => {
+const Projects = ({ ...props }) => {
   return (
-    <div className='flex flex-col items-center max-w-6xl gap-6 mx-auto'>
+    <div
+      {...props}
+      className='flex flex-col items-center max-w-6xl gap-6 mx-auto'
+    >
       <h1 className='p-6 text-3xl font-bold'>
         <span className='text-primary'>{'<'}</span>Projects{' '}
         <span className='text-primary'>{'/>'}</span>
